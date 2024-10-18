@@ -5,7 +5,7 @@ function calcular_saldo(qtd_vitorias, qtd_derrotas){
 let vitorias = 60
 let derrotas = 40
 let rank = ""
-saldo = calcular_saldo(vitorias, derrotas)
+let saldo = calcular_saldo(vitorias, derrotas)
 
 if(saldo < 10){
     rank = "Ferro"
